@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@layer components {
+  .countdown {
+    @apply flex h-[50px] gap-[17px];
+  }
+
+  .countdown-item {
+    @apply text-start;
+  }
+
+  .countdown-label {
+    @apply font-[poppins] text-[12px] leading-[18px] font-[500] text-black;
+  }
+
+  .countdown-value {
+    @apply font-[inter] text-[32px] leading-[30px] font-[700] tracking-[1.28px] text-black;
+  }
+
+  .countdown-separator {
+    @apply mb-[8px] flex flex-col items-end justify-end gap-[8px];
+  }
+
+  .countdown-separator span {
+    @apply size-[4px] rounded-full bg-[#E07575];
+  }
+}
+
+.container {
+  @apply mx-auto w-full px-[20px] md:max-w-[1440px] md:px-[135px];
+}
+
+.body-text-1 {
+  @apply font-[poppins] text-[14px] leading-[20px] font-[400] text-[#FAFAFA] md:text-[16px] md:leading-[24px];
+}
+
+.body-text-2 {
+  @apply font-[poppins] text-[20px] leading-[28px] font-[500] text-[#FAFAFA];
+}
+
+.body-text-3 {
+  @apply font-[poppins] text-[14px] leading-[20px] font-[500] text-[#FAFAFA] md:text-[12px] md:leading-[18px];
+}
+
+/* Header Menu */
+.header-menu {
+  @apply flex flex-row items-center gap-[48px];
+}
+
+.header-menu a {
+  @apply font-[poppins] text-[16px] leading-[24px] font-[400] text-black;
+}
+
+/* Mobile Header Menu */
+.mobile-menu {
+  @apply flex w-full flex-row items-center justify-between;
+}
+
+.mobile-menu a {
+  @apply font-[poppins] text-[16px] leading-[24px] font-[400] text-black;
+}
+
+/* Pagination */
+.pagination div {
+  @apply size-[12px] rounded-full bg-white/50;
+}
+
+.pagination .active {
+  @apply size-[12px] rounded-full bg-[#DB4444];
+}
+
+/* Discount Text */
+.discount-text {
+  @apply absolute top-[12px] left-[12px] rounded-[4px] bg-[#DB4444] px-[12px] py-[4px] font-[poppins] text-[12px] leading-[18px] font-[400] text-[#FAFAFA];
+}
+
+/* Wishlist */
+.wishlist {
+  @apply flex items-center justify-center rounded-full bg-white p-[5px];
+}
+
+/* Eye Icon */
+.eye-icon {
+  @apply flex items-center justify-center rounded-full bg-white p-[5px];
+}
+
+/* Category */
+.category-item {
+  @apply flex h-[195px] w-full transform cursor-pointer items-center justify-center rounded-[4px] border-[1px] border-black/30 transition-all duration-300 hover:border-[#DB4444] hover:bg-[#DB4444] md:h-[145px] md:w-[170px];
+}
+
+.category-item-text {
+  @apply transform font-[poppins] text-[16px] leading-[24px] font-[400] text-black transition-all duration-300 group-hover:text-[#FAFAFA];
+}
+
+/* Product Item */
+.product-item {
+  @apply flex flex-col gap-[16px];
+}
+
+.product-item a {
+  @apply font-[poppins] text-[16px] leading-[24px] font-[400] text-black;
+}
+
+.heading-text {
+  @apply font-[inter] text-[24px] leading-[32px] font-[600] tracking-[0.5px] text-black md:text-[36px] md:leading-[48px] md:tracking-[1.44px];
+}
+
+.category-menu a {
+  @apply text-[16px] leading-[24px] font-[500] text-black;
+}
+
+.mobile-category-menu a {
+  @apply text-[20px] leading-[28px] font-[500] text-[#FAFAFA];
+}

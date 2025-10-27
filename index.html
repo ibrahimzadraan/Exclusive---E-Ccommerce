@@ -1,0 +1,2301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/main.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <title>Exclusive</title>
+  </head>
+  <body>
+    <!-- Top Header -->
+    <section
+      class="top-header hidden w-full flex-row items-center bg-black py-[12px] md:flex"
+    >
+      <div class="w-[445px]"></div>
+      <div class="flex flex-row items-center gap-[8px]">
+        <span
+          class="font-[poppins] text-[14px] leading-[21px] font-[400] text-[#FAFAFA]"
+        >
+          Summer Sale For All Swim Suits And Free Express Delivery - OFF
+          50%!</span
+        >
+        <a
+          href=""
+          class="font-[poppins] text-[14px] leading-[21px] font-[600] text-[#FAFAFA] underline"
+          >ShopNow</a
+        >
+      </div>
+
+      <div class="w-[231px]"></div>
+
+      <div class="language flex items-center gap-[8px]">
+        <span
+          class="font-[poppins] text-[14px] leading-[21px] font-[400] text-[#FAFAFA]"
+          >English</span
+        >
+        <img src="assets/img/vector.png" alt="vector" />
+      </div>
+    </section>
+
+    <div class="h-[20px] md:h-[40px]"></div>
+
+    <!-- Header -->
+    <!-- Desktop Menu -->
+    <header class="container hidden items-center md:flex">
+      <div class="logo">
+        <span
+          class="cursor-pointer font-[inter] text-[24px] leading-[24px] font-[700] tracking-[0.72px] text-black"
+          >Exclusive</span
+        >
+      </div>
+
+      <div class="w-[190px]"></div>
+
+      <nav class="header-menu">
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </nav>
+
+      <div class="w-[148px]"></div>
+
+      <div class="flex flex-row items-center gap-[24px]">
+        <!-- Search Bar -->
+        <div class="flex h-[38px] items-center gap-[34px] px-[12px] py-[7px]">
+          <input
+            type="search"
+            id="search"
+            placeholder="What are you looking for?"
+            class="w-[170px] bg-transparent font-[poppins] text-[12px] leading-[18px] font-[400] outline-none placeholder:text-[rgba(0,0,0,0.5)]"
+          />
+          <img
+            src="assets/img/search-icon.png"
+            class="size-[24px] cursor-pointer"
+            alt="search icon"
+          />
+        </div>
+
+        <!-- Icons -->
+        <div class="flex flex-row items-center gap-[16px]">
+          <img
+            src="assets/img/wishlist.png"
+            class="size-[32px] cursor-pointer"
+            alt="wishlist icon"
+          />
+          <img
+            src="assets/img/cart-icon.png"
+            class="size-[32px] cursor-pointer"
+            alt="cart icon"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <header class="flex w-full flex-col items-center px-[20px] md:hidden">
+      <div class="relative flex w-full flex-row items-center justify-between">
+        <!-- Logo & Hamburger -->
+        <div class="flex flex-row items-center gap-[8px]">
+          <i
+            id="menuToggle"
+            class="fa-solid fa-bars cursor-pointer text-[24px]"
+          ></i>
+          <span
+            class="cursor-pointer font-[inter] text-[24px] leading-[24px] font-[700] tracking-[0.72px] text-black"
+            >Exclusive</span
+          >
+        </div>
+
+        <!-- Mobile Category Menu -->
+        <div
+          id="mobileMenu"
+          class="fixed top-0 left-0 z-50 flex h-full w-[280px] -translate-x-full transform flex-col gap-[16px] bg-black px-[20px] py-[40px] transition-transform duration-300 md:hidden"
+        >
+          <!-- Header inside menu -->
+          <div class="mb-[24px] flex flex-row items-center justify-between">
+            <span class="text-[20px] font-bold text-white">Category Menu</span>
+            <i
+              id="menuClose"
+              class="fa-solid fa-xmark cursor-pointer text-[24px] text-white"
+            ></i>
+          </div>
+
+          <!-- Menu Items -->
+          <div class="flex flex-row items-center justify-between text-white">
+            <a href="">Woman’s Fashion</a>
+            <i class="fa-solid fa-arrow-right text-[#FAFAFA]"></i>
+          </div>
+
+          <div class="flex flex-row items-center justify-between text-white">
+            <a href="">Men’s Fashion</a>
+            <i class="fa-solid fa-arrow-right text-[#FAFAFA]"></i>
+          </div>
+
+          <a href="" class="text-white">Electronics</a>
+          <a href="" class="text-white">Home & Lifestyle</a>
+          <a href="" class="text-white">Medicine</a>
+          <a href="" class="text-white">Sports & Outdoor</a>
+          <a href="" class="text-white">Baby’s & Toys</a>
+          <a href="" class="text-white">Groceries & Pets</a>
+          <a href="" class="text-white">Health & Beauty</a>
+        </div>
+
+        <!-- Icons -->
+        <div class="flex flex-row items-center gap-[16px]">
+          <img
+            src="assets/img/wishlist.png"
+            class="size-[32px] cursor-pointer"
+            alt="wishlist icon"
+          />
+          <img
+            src="assets/img/cart-icon.png"
+            class="size-[32px] cursor-pointer"
+            alt="cart icon"
+          />
+        </div>
+      </div>
+
+      <div class="h-[20px]"></div>
+
+      <!-- Search Bar -->
+      <div
+        class="flex h-[38px] w-full items-center gap-[34px] rounded-[4px] border-[1px] border-black/30 px-[12px] py-[7px]"
+      >
+        <input
+          type="search"
+          id="search"
+          placeholder="What are you looking for?"
+          class="w-full bg-transparent font-[poppins] text-[14px] leading-[20px] font-[400] outline-none placeholder:text-[rgba(0,0,0,0.5)]"
+        />
+        <img
+          src="assets/img/search-icon.png"
+          class="size-[24px] cursor-pointer"
+          alt="search icon"
+        />
+      </div>
+
+      <div class="h-[20px]"></div>
+
+      <!-- Mobile Menu -->
+      <nav class="mobile-menu">
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </nav>
+    </header>
+
+    <hr class="mt-[16px] h-[1px] w-full border-0 bg-black/30" />
+
+    <!-- Hero Section -->
+    <section class="hero-section container flex flex-row">
+      <!-- Desktop Category Menu -->
+      <div
+        class="category-menu hidden w-[217px] flex-col gap-[16px] pt-[40px] md:flex"
+      >
+        <div class="flex flex-row items-center justify-between">
+          <a href="">Woman’s Fashion</a>
+          <img src="assets/img/right-arrow.png" alt="right-arrow" />
+        </div>
+
+        <div class="flex flex-row items-center justify-between">
+          <a href="">Men’s Fashion</a>
+          <img src="assets/img/right-arrow.png" alt="right-arrow" />
+        </div>
+
+        <a href="">Electronics</a>
+        <a href="">Home & Lifestyle</a>
+        <a href="">Medicine</a>
+        <a href="">Sports & Outdoor</a>
+        <a href="">Baby’s & Toys</a>
+        <a href="">Groceries & Pets</a>
+        <a href="">Health & Beauty</a>
+      </div>
+
+      <hr class="ml-[16px] hidden h-[384px] w-[0.5px] bg-black/30 md:block" />
+
+      <!-- Main Banner -->
+      <div
+        class="main-banner relative mt-[40px] h-[700px] w-full bg-black md:ml-[45px] md:h-[344px] md:w-[892px]"
+      >
+        <div class="absolute mt-[58px] ml-[64px] flex flex-col">
+          <div class="mb-[20px] flex flex-row items-center gap-[24px]">
+            <img
+              src="assets/img/iphone-logo.png"
+              class="h-[49px] w-[40px]"
+              alt="iphone-logo"
+            />
+            <span class="body-text-1">iPhone 14 Series</span>
+          </div>
+
+          <span
+            class="mb-[22px] w-[294px] font-[inter] text-[48px] leading-[60px] font-[600] tracking-[1.92px] text-[#FAFAFA]"
+          >
+            Up to 10% off Voucher
+          </span>
+
+          <div class="flex flex-row items-center gap-[8px]">
+            <span class="body-text-1 underline underline-offset-[10px]"
+              >Shop Now</span
+            >
+            <img src="assets/img/white-right-arrow.png" alt="" />
+          </div>
+        </div>
+
+        <img
+          src="assets/img/iphone.png"
+          class="absolute right-0 bottom-[40px] md:top-[16px]"
+          alt="iphone"
+        />
+
+        <div
+          class="pagination absolute bottom-[11px] left-[35%] flex items-center justify-center space-x-[12px] md:left-[353px]"
+        >
+          <!-- Inactive dots -->
+          <div></div>
+          <div></div>
+
+          <!-- Active dot -->
+          <div class="active"></div>
+
+          <!-- Inactive dots -->
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="h-[80px] md:h-[140px]"></div>
+
+    <!-- Flash Sale Section -->
+    <section class="flash-sale container">
+      <!-- Header -->
+      <div class="header flex h-auto flex-col md:flex-row md:items-end">
+        <div class="flex w-[211px] flex-col gap-[24px]">
+          <div class="today-text flex flex-row items-center gap-[16px]">
+            <span class="h-[40px] w-[20px] rounded-[5px] bg-[#DB4444]"></span>
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-[#DB4444]"
+              >Today’s</span
+            >
+          </div>
+          <span class="heading-text">Flash Sales</span>
+        </div>
+
+        <div class="w-[87px]"></div>
+
+        <div class="countdown">
+          <div class="countdown-item">
+            <p class="countdown-label">Days</p>
+            <p class="countdown-value">03</p>
+          </div>
+          <p class="countdown-separator">
+            <span></span>
+            <span></span>
+          </p>
+          <div class="countdown-item">
+            <p class="countdown-label">Hours</p>
+            <p class="countdown-value">23</p>
+          </div>
+
+          <p class="countdown-separator">
+            <span></span>
+            <span></span>
+          </p>
+
+          <div class="countdown-item">
+            <p class="countdown-label">Minutes</p>
+            <p class="countdown-value">19</p>
+          </div>
+
+          <p class="countdown-separator">
+            <span></span>
+            <span></span>
+          </p>
+
+          <div class="countdown-item">
+            <p class="countdown-label">Seconds</p>
+            <p class="countdown-value">56</p>
+          </div>
+        </div>
+
+        <div class="w-[470px]"></div>
+
+        <!-- Arrow -->
+        <div class="hidden cursor-pointer items-end gap-[8px] md:flex">
+          <div
+            class="group flex size-[46px] transform items-center justify-center rounded-full bg-[#F5F5F5] transition-all duration-300 hover:bg-[#DB4444]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <path
+                d="M11 5L4 12L11 19M4 12H20"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="group flex size-[46px] transform items-center justify-center rounded-full bg-[#F5F5F5] transition-all duration-300 hover:bg-[#DB4444]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <path
+                d="M3.5 12H20M20 12L13 5M20 12L13 19"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[40px]"></div>
+
+      <!-- Category -->
+      <div class="category grid grid-cols-1 gap-[30px] md:grid-cols-4">
+        <!-- Item 1 -->
+        <div class="product-item flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/flash-sale/gaming-control.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="gaming-control"
+            />
+
+            <span class="discount-text"> -40% </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black transition-all duration-300 group-hover:bottom-0"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Discription   -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="product-item flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/flash-sale/tv.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="tv"
+            />
+
+            <span
+              class="discount-text absolute top-[12px] left-[12px] rounded bg-black px-2 py-1 text-sm text-white"
+            >
+              -40%
+            </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="product-item flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/flash-sale/keyboard.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="keyboard"
+            />
+            <span class="discount-text"> -40% </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="product-item flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/flash-sale/chair.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="chair"
+            />
+            <span class="discount-text"> -40% </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <button class="view-all-product-btn">
+        <a> View All Products </a>
+      </button>
+    </section>
+    <div class="h-[60px]"></div>
+    <hr class="mx-auto h-[1px] w-full max-w-[1170px] border-0 bg-black/30" />
+    <div class="h-[80px]"></div>
+
+    <!-- Browse By Category Section -->
+    <section class="browse-by-category container">
+      <!-- Header -->
+      <div class="header flex h-auto flex-row items-end justify-between">
+        <div class="flex flex-col gap-[24px]">
+          <div class="today-text flex flex-row items-center gap-[16px]">
+            <span class="h-[40px] w-[20px] rounded-[5px] bg-[#DB4444]"></span>
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-[#DB4444]"
+              >Categories</span
+            >
+          </div>
+          <span class="heading-text">Browse By Category</span>
+        </div>
+
+        <!-- Arrow -->
+        <div class="hidden cursor-pointer flex-row items-end gap-[8px] md:flex">
+          <div
+            class="group flex size-[46px] transform items-center justify-center rounded-full bg-[#F5F5F5] transition-all duration-300 hover:bg-[#DB4444]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <path
+                d="M11 5L4 12L11 19M4 12H20"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <div
+            class="group flex size-[46px] transform items-center justify-center rounded-full bg-[#F5F5F5] transition-all duration-300 hover:bg-[#DB4444]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <path
+                d="M3.5 12H20M20 12L13 5M20 12L13 19"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <!-- Category -->
+      <div class="category grid grid-cols-1 gap-[30px] md:grid-cols-6">
+        <!-- Category Item 1 -->
+        <div class="category-item group">
+          <div class="flex flex-col items-center justify-center gap-[16px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <g clip-path="url(#clip0_849_868)">
+                <path
+                  d="M38.9375 6.125H17.0625C15.5523 6.125 14.3281 7.34922 14.3281 8.85938V47.1406C14.3281 48.6508 15.5523 49.875 17.0625 49.875H38.9375C40.4477 49.875 41.6719 48.6508 41.6719 47.1406V8.85938C41.6719 7.34922 40.4477 6.125 38.9375 6.125Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M25.6667 7H31.1354"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M28 44.0052V44.0305"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <line
+                  x1="15.1667"
+                  y1="39.8334"
+                  x2="40.8333"
+                  y2="39.8334"
+                  stroke-width="2"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_849_868">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="category-item-text">Phones</span>
+          </div>
+        </div>
+
+        <!-- Category Item 2 -->
+        <div class="category-item group">
+          <div class="flex flex-col items-center gap-[16px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <g clip-path="url(#clip0_849_613)">
+                <path
+                  d="M46.6667 9.33337H9.33333C8.04467 9.33337 7 10.378 7 11.6667V35C7 36.2887 8.04467 37.3334 9.33333 37.3334H46.6667C47.9553 37.3334 49 36.2887 49 35V11.6667C49 10.378 47.9553 9.33337 46.6667 9.33337Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16.3333 46.6666H39.6667"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M21 37.3334V46.6667"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M35 37.3334V46.6667"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path d="M8 32H48" stroke-width="2" stroke-linecap="round" />
+              </g>
+              <defs>
+                <clipPath id="clip0_849_613">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="category-item-text">Computers</span>
+          </div>
+        </div>
+
+        <!-- Category Item 3 -->
+        <div class="category-item group">
+          <div class="flex flex-col items-center gap-[16px]">
+            <svg
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <g clip-path="url(#clip0_849_629)">
+                <path
+                  d="M35 14H21C17.134 14 14 17.134 14 21V35C14 38.866 17.134 42 21 42H35C38.866 42 42 38.866 42 35V21C42 17.134 38.866 14 35 14Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M21 42V49H35V42"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M21 14V7H35V14"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <line
+                  x1="24"
+                  y1="23"
+                  x2="24"
+                  y2="34"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="28"
+                  y1="28"
+                  x2="28"
+                  y2="34"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+                <line
+                  x1="32"
+                  y1="26"
+                  x2="32"
+                  y2="34"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_849_629">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+
+            <span class="category-item-text">SmartWatch</span>
+          </div>
+        </div>
+
+        <!-- Category Item 4 -->
+        <div class="category-item group">
+          <div class="flex flex-col items-center gap-[16px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <g clip-path="url(#clip0_849_6)">
+                <path
+                  d="M11.6667 16.3334H14C15.2377 16.3334 16.4247 15.8417 17.2998 14.9665C18.175 14.0914 18.6667 12.9044 18.6667 11.6667C18.6667 11.0479 18.9125 10.4544 19.3501 10.0168C19.7877 9.57921 20.3812 9.33337 21 9.33337H35C35.6188 9.33337 36.2123 9.57921 36.6499 10.0168C37.0875 10.4544 37.3333 11.0479 37.3333 11.6667C37.3333 12.9044 37.825 14.0914 38.7002 14.9665C39.5753 15.8417 40.7623 16.3334 42 16.3334H44.3333C45.571 16.3334 46.758 16.825 47.6332 17.7002C48.5083 18.5754 49 19.7624 49 21V42C49 43.2377 48.5083 44.4247 47.6332 45.2999C46.758 46.175 45.571 46.6667 44.3333 46.6667H11.6667C10.429 46.6667 9.242 46.175 8.36683 45.2999C7.49167 44.4247 7 43.2377 7 42V21C7 19.7624 7.49167 18.5754 8.36683 17.7002C9.242 16.825 10.429 16.3334 11.6667 16.3334"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M28 37.3334C31.866 37.3334 35 34.1994 35 30.3334C35 26.4674 31.866 23.3334 28 23.3334C24.134 23.3334 21 26.4674 21 30.3334C21 34.1994 24.134 37.3334 28 37.3334Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_849_6">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="category-item-text">Camera</span>
+          </div>
+        </div>
+
+        <!-- Category Item 5 -->
+        <div class="category-item group">
+          <div class="flex flex-col items-center gap-[16px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <g clip-path="url(#clip0_849_644)">
+                <path
+                  d="M16.3333 30.3334H14C11.4227 30.3334 9.33331 32.4227 9.33331 35V42C9.33331 44.5774 11.4227 46.6667 14 46.6667H16.3333C18.9106 46.6667 21 44.5774 21 42V35C21 32.4227 18.9106 30.3334 16.3333 30.3334Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M42 30.3334H39.6667C37.0893 30.3334 35 32.4227 35 35V42C35 44.5774 37.0893 46.6667 39.6667 46.6667H42C44.5773 46.6667 46.6667 44.5774 46.6667 42V35C46.6667 32.4227 44.5773 30.3334 42 30.3334Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9.33331 35V28C9.33331 23.0493 11.3 18.3014 14.8007 14.8007C18.3013 11.3 23.0493 9.33337 28 9.33337C32.9507 9.33337 37.6986 11.3 41.1993 14.8007C44.7 18.3014 46.6666 23.0493 46.6666 28V35"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_849_644">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="category-item-text">HeadPhones</span>
+          </div>
+        </div>
+
+        <!-- Category Item 6 -->
+        <div class="category-item group">
+          <div class="flex flex-col items-center gap-[16px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="56"
+              height="56"
+              viewBox="0 0 56 56"
+              fill="none"
+              stroke="black"
+              class="transform transition-all duration-300 group-hover:stroke-white"
+            >
+              <g clip-path="url(#clip0_849_809)">
+                <path
+                  d="M46.6666 14H9.33329C6.75596 14 4.66663 16.0893 4.66663 18.6667V37.3333C4.66663 39.9107 6.75596 42 9.33329 42H46.6666C49.244 42 51.3333 39.9107 51.3333 37.3333V18.6667C51.3333 16.0893 49.244 14 46.6666 14Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M14 28H23.3333M18.6667 23.3334V32.6667"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M35 25.6666V25.6908"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M42 30.3333V30.3574"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_849_809">
+                  <rect width="56" height="56" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <span class="category-item-text">Gaming</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="h-[80px] md:h-[140px]"></div>
+
+    <!-- Best Sale Section -->
+    <section class="best-sale container">
+      <!-- Header -->
+      <div class="header flex h-auto flex-row items-end justify-between">
+        <div class="flex flex-col gap-[24px]">
+          <div class="today-text flex flex-row items-center gap-[16px]">
+            <span class="h-[40px] w-[20px] rounded-[5px] bg-[#DB4444]"></span>
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-[#DB4444]"
+              >This Month</span
+            >
+          </div>
+          <span class="header-text">Best Selling Products</span>
+        </div>
+
+        <!-- Button -->
+        <button class="view-all-btn hidden! md:block!">
+          <a href="#">View All</a>
+        </button>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <!-- Category -->
+      <div class="category grid grid-cols-1 gap-[30px] md:grid-cols-4">
+        <!-- Item 1 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/best-saling/jacket.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="jacket"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black transition-all duration-300 group-hover:bottom-0"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Discription   -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/best-saling/bag.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="bag"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/best-saling/sound-box.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="sound-box"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/best-saling/reading-table.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="reading-table"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <span>$160</span>
+            </div>
+            <div class="flex flex-row items-center gap-[8px]">
+              <div class="flex flex-row items-center gap-[4px] text-[#FFAD33]">
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+                <span><i class="fa-solid fa-star"></i> </span>
+              </div>
+
+              <span
+                class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                >( 50 )
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <button class="view-all-btn mx-auto block! md:hidden!">
+        <a href="#"> View All </a>
+      </button>
+    </section>
+
+    <div class="h-[71px]"></div>
+
+    <!--- Category Banner Section -->
+    <section class="relative mx-auto hidden w-[1170px] md:block">
+      <img src="assets/svg/bg.svg" class="h-[500px]" />
+      <div class="absolute top-[69px] left-[56px] flex flex-col">
+        <span
+          class="font-[poppins] text-[16px] leading-[20px] font-[600] text-[#0F6]"
+        >
+          Categories
+        </span>
+
+        <div class="h-[32px]"></div>
+
+        <span
+          class="w-[443px] font-[inter] text-[48px] leading-[60px] font-[600] tracking-[1.92px] text-[#FAFAFA]"
+        >
+          Enhance Your Music Experience
+        </span>
+
+        <div class="h-[32px]"></div>
+
+        <div class="flex flex-row items-center gap-[24px]">
+          <div
+            class="flex size-[62px] flex-col items-center justify-center rounded-full bg-white"
+          >
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-black"
+            >
+              23
+            </span>
+            <span
+              class="font-[poppins] text-[11px] leading-[18px] font-[400] text-black"
+              >Hours
+            </span>
+          </div>
+
+          <div
+            class="flex size-[62px] flex-col items-center justify-center rounded-full bg-white"
+          >
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-black"
+            >
+              05
+            </span>
+            <span
+              class="font-[poppins] text-[11px] leading-[18px] font-[400] text-black"
+              >Days
+            </span>
+          </div>
+
+          <div
+            class="flex size-[62px] flex-col items-center justify-center rounded-full bg-white"
+          >
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-black"
+            >
+              58
+            </span>
+            <span
+              class="font-[poppins] text-[11px] leading-[18px] font-[400] text-black"
+              >Minutes
+            </span>
+          </div>
+
+          <div
+            class="flex size-[62px] flex-col items-center justify-center rounded-full bg-white"
+          >
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-black"
+            >
+              22
+            </span>
+            <span
+              class="font-[poppins] text-[11px] leading-[18px] font-[400] text-black"
+              >Seconds
+            </span>
+          </div>
+        </div>
+
+        <div class="h-[40px]"></div>
+
+        <button class="buy-now-btn">
+          <a href="#">Buy Now</a>
+        </button>
+      </div>
+
+      <div class="absolute top-[82px] right-[60px]">
+        <img src="assets/img/jbl-box.png" />
+      </div>
+    </section>
+
+    <div class="h-[71px]"></div>
+
+    <!-- Explore Our Products Section -->
+    <section class="explore-our-products container">
+      <!-- Header -->
+      <div class="header flex h-auto flex-row items-end">
+        <div class="flex flex-col gap-[24px]">
+          <div class="today-text flex flex-row items-center gap-[16px]">
+            <span class="h-[40px] w-[20px] rounded-[5px] bg-[#DB4444]"></span>
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-[#DB4444]"
+              >Categories</span
+            >
+          </div>
+          <span class="heading-text">Explore Our Products</span>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <!-- Category -->
+      <div class="category grid grid-cols-1 gap-[30px] md:grid-cols-4">
+        <!-- Item 1 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product1.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product1"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black transition-all duration-300 group-hover:bottom-0"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Discription   -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product2.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product2"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product3.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product3"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product4.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product4"
+            />
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <!-- Category -->
+      <div class="category grid grid-cols-1 gap-[30px] md:grid-cols-4">
+        <!-- Item 1 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product5.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product5"
+            />
+
+            <span class="discount-text bg-[#0F6]!"> New </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black transition-all duration-300 group-hover:bottom-0"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center gap-[8px]">
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product6.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product6"
+            />
+
+            <span class="discount-text bg-[#0F6]!"> New </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <!-- Add to Cart (hidden by default, shows on hover) -->
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center gap-[8px]">
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product7.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product7"
+            />
+
+            <span class="discount-text bg-[#0F6]!"> New </span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center gap-[8px]">
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="product-item group flex flex-col gap-[16px]">
+          <div
+            class="group relative flex h-[250px] w-full items-center justify-center overflow-hidden rounded-[4px] bg-[#F5F5F5] md:w-[270px]"
+          >
+            <img
+              src="assets/img/product-item/product8.png"
+              class="cursor-pointer transition-transform duration-300 group-hover:scale-105"
+              alt="product8"
+            />
+
+            <span class="discount-text bg-[#0F6]!"> New</span>
+
+            <div
+              class="absolute top-[12px] right-[12px] flex cursor-pointer flex-col gap-[8px]"
+            >
+              <div class="wishlist">
+                <img src="assets/img/short-wishlist.png" alt="wishlist" />
+              </div>
+              <div class="eye-icon">
+                <img src="assets/img/eye-icon.png" alt="eye-icon" />
+              </div>
+            </div>
+
+            <div
+              class="add-to-cart absolute bottom-[-50px] flex h-[41px] w-[270px] cursor-pointer items-center justify-center rounded-[4px] bg-black opacity-0 transition-all duration-300 group-hover:bottom-0 group-hover:opacity-100"
+            >
+              <span
+                class="font-[poppins] text-[16px] leading-[24px] font-[500] text-[#FAFAFA]"
+              >
+                Add to Cart
+              </span>
+            </div>
+          </div>
+
+          <!-- Description -->
+          <div class="description flex flex-col gap-[8px]">
+            <span
+              class="cursor-pointer font-[poppins] text-[16px] leading-[24px] font-[500] text-black"
+              >HAVIT HV-G92 Gamepad</span
+            >
+            <div
+              class="flex flex-row items-center gap-[12px] font-[poppins] text-[24px] leading-[24px] font-[500] text-black/50"
+            >
+              <span class="text-[#DB4444]">$120</span>
+              <div class="flex flex-row items-center gap-[8px]">
+                <div
+                  class="flex flex-row items-center gap-[4px] text-[20px] text-[#FFAD33]"
+                >
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                  <span><i class="fa-solid fa-star"></i> </span>
+                </div>
+
+                <span
+                  class="font-[poppins] text-[14px] leading-[21px] font-[600] text-black/50"
+                  >( 50 )
+                </span>
+              </div>
+            </div>
+
+            <div class="flex flex-row items-center gap-[8px]">
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+              <label class="custom-radio">
+                <input type="radio" name="option" />
+                <span></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <button class="view-all-product-btn">
+        <a> View All Products </a>
+      </button>
+    </section>
+
+    <div class="h-[140px]"></div>
+
+    <!-- New Arrival Section -->
+    <section class="new-arrival container">
+      <!-- Header -->
+      <div class="header flex h-auto flex-row items-end">
+        <div class="flex flex-col gap-[24px]">
+          <div class="today-text flex flex-row items-center gap-[16px]">
+            <span class="h-[40px] w-[20px] rounded-[5px] bg-[#DB4444]"></span>
+            <span
+              class="font-[poppins] text-[16px] leading-[20px] font-[600] text-[#DB4444]"
+              >Featured</span
+            >
+          </div>
+          <span class="heading-text">New Arrival</span>
+        </div>
+      </div>
+
+      <div class="h-[60px]"></div>
+
+      <div class="flex flex-col items-center gap-[30px] md:flex-row">
+        <div
+          class="relative h-[400px] w-full rounded-[4px] bg-black md:h-[600px]"
+        >
+          <img
+            src="assets/img/playstation.png"
+            class="absolute bottom-0 left-[28px]"
+            alt="ps5"
+          />
+
+          <div
+            class="absolute bottom-[32px] left-[32px] flex flex-col gap-[16px]"
+          >
+            <span
+              class="cursor-pointer font-[inter] text-[24px] leading-[24px] font-[600] tracking-[0.72px] text-[#FAFAFA]"
+              >PlayStation 5</span
+            >
+            <span
+              class="w-[244px] font-[poppins] text-[14px] leading-[21px] font-[400] text-[#FAFAFA]"
+              >Black and White version of the PS5 coming out on sale.</span
+            >
+            <a href="" class="body-text-2 underline underline-offset-[7px]"
+              >Shop Now</a
+            >
+          </div>
+        </div>
+
+        <div class="flex w-full flex-col gap-[32px]">
+          <div
+            class="relative h-[284px] rounded-[4px] bg-[#0D0D0D] md:w-[570px]"
+          >
+            <img
+              src="assets/img/woman-collection.png"
+              class="absolute right-0 bottom-0 rounded-[4px]"
+              alt="woman-collection"
+            />
+
+            <div
+              class="absolute bottom-[24px] left-[24px] flex flex-col gap-[16px]"
+            >
+              <span
+                class="cursor-pointer font-[inter] text-[24px] leading-[24px] font-[600] tracking-[0.72px] text-[#FAFAFA]"
+                >Women’s Collections</span
+              >
+              <span
+                class="w-[255px] font-[poppins] text-[14px] leading-[21px] font-[400] text-[#FAFAFA]"
+                >Featured woman collections that give you another vibe.</span
+              >
+              <a href="" class="body-text-2 underline underline-offset-[7px]"
+                >Shop Now</a
+              >
+            </div>
+          </div>
+
+          <div class="flex flex-col items-center gap-[30px] md:flex-row">
+            <div class="relative w-full">
+              <img
+                src="assets/img/bg.png"
+                class="w-full md:w-[270px]"
+                alt="bg"
+              />
+              <img
+                src="assets/img/box.png"
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                alt="box"
+              />
+
+              <div
+                class="absolute bottom-[24px] left-[24px] flex flex-col gap-[16px]"
+              >
+                <span
+                  class="cursor-pointer font-[inter] text-[24px] leading-[24px] font-[600] tracking-[0.72px] text-[#FAFAFA]"
+                  >Speakers</span
+                >
+                <span
+                  class="w-[191px] font-[poppins] text-[14px] leading-[21px] font-[400] text-[#FAFAFA]"
+                  >Amazon wireless speakers</span
+                >
+                <a href="" class="body-text-2 underline underline-offset-[7px]"
+                  >Shop Now</a
+                >
+              </div>
+            </div>
+
+            <div class="relative w-full">
+              <img
+                src="assets/img/bg.png"
+                class="w-full md:w-[270px]"
+                alt="bg"
+              />
+              <img
+                src="assets/img/perfium.png"
+                class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                alt="perfium"
+              />
+
+              <div
+                class="absolute bottom-[24px] left-[24px] flex flex-col gap-[16px]"
+              >
+                <span
+                  class="cursor-pointer font-[inter] text-[24px] leading-[24px] font-[600] tracking-[0.72px] text-[#FAFAFA]"
+                  >Perfume</span
+                >
+                <span
+                  class="w-[191px] font-[poppins] text-[14px] leading-[21px] font-[400] text-[#FAFAFA]"
+                  >GUCCI INTENSE OUD EDP</span
+                >
+                <a href="" class="body-text-2 underline underline-offset-[7px]"
+                  >Shop Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="h-[80px] md:h-[140px]"></div>
+
+    <!-- Service Section -->
+    <section
+      class="service flex flex-col items-center justify-center gap-[40px] md:flex-row md:gap-[88px]"
+    >
+      <!-- Delivery Service -->
+      <div class="flex flex-col items-center gap-[24px]">
+        <img src="assets/img/services1.png" alt="services1" />
+        <div class="flex flex-col items-center gap-[8px]">
+          <span
+            class="font-[poppins] text-[20px] leading-[28px] font-[600] text-black"
+            >FREE AND FAST DELIVERY</span
+          >
+          <span
+            class="font-[poppins] text-[14px] leading-[21px] font-[400] text-black"
+            >Free delivery on orders over $140</span
+          >
+        </div>
+      </div>
+
+      <!-- Customer Service -->
+      <div class="flex flex-col items-center gap-[24px]">
+        <img src="assets/img/services2.png" alt="services2" />
+        <div class="flex flex-col items-center gap-[8px]">
+          <span
+            class="font-[poppins] text-[20px] leading-[28px] font-[600] text-black"
+            >24/7 CUSTOMER SERVICE</span
+          >
+          <span
+            class="font-[poppins] text-[14px] leading-[21px] font-[400] text-black"
+            >Friendly 24/7 customer support</span
+          >
+        </div>
+      </div>
+
+      <!-- Money Back Guarantee -->
+      <div class="flex flex-col items-center gap-[24px]">
+        <img src="assets/img/services3.png" alt="services3" />
+        <div class="flex flex-col items-center gap-[8px]">
+          <span
+            class="font-[poppins] text-[20px] leading-[28px] font-[600] text-black"
+            >MONEY BACK GUARANTEE</span
+          >
+          <span
+            class="font-[poppins] text-[14px] leading-[21px] font-[400] text-black"
+            >We reurn money within 30 days</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <div class="h-[80px] md:h-[140px]"></div>
+
+    <!-- Footer Section -->
+    <footer class="container bg-black px-[20px]">
+      <div
+        class="flex flex-col py-[40px] md:flex-row md:pt-[80px] md:pb-[60px]"
+      >
+        <!-- News Letter -->
+        <div class="news-letter flex flex-col md:w-[217px]">
+          <div class="mb-[16px] flex flex-col gap-[24px]">
+            <span
+              class="logo font-[inter] text-[24px] leading-[24px] font-[700] tracking-[0.72px] text-[#FAFAFA]"
+              >Exclusive</span
+            >
+            <span class="body-text-2">Subscribe</span>
+            <span class="body-text-1">Get 10% off your first order</span>
+          </div>
+
+          <div
+            class="relative flex items-start justify-start md:items-center md:justify-center"
+          >
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="h-[48px] w-[260px] rounded-[4px] border border-[#FAFAFA] bg-transparent py-[12px] pl-[16px] text-[#FAFAFA]/40 placeholder:text-[#FAFAFA]/40 md:w-[217px]"
+            />
+            <img
+              src="assets/img/icon-send.png"
+              alt="send"
+              class="absolute top-1/2 right-[130px] -translate-y-1/2 cursor-pointer md:right-[16px]"
+            />
+          </div>
+        </div>
+
+        <div class="h-[32px] md:w-[87px]"></div>
+
+        <!-- Support -->
+        <div class="flex flex-col md:w-[175px]">
+          <span class="body-text-2 mb-[24px]">Support</span>
+          <div class="flex flex-col gap-[16px]">
+            <span class="body-text-1"
+              >111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</span
+            >
+            <span class="body-text-1 cursor-pointer">exclusive@gmail.com</span>
+            <span class="body-text-1 cursor-pointer">+88015-88888-9999</span>
+          </div>
+        </div>
+
+        <div class="h-[32px] md:w-[87px]"></div>
+
+        <!-- Account -->
+        <div class="flex flex-col md:w-[123px]">
+          <span class="body-text-2 mb-[24px]">Account</span>
+          <div class="flex flex-col gap-[16px]">
+            <a href="" class="body-text-1">My Account</a>
+            <a href="" class="body-text-1">Login / Register</a>
+            <a href="" class="body-text-1">Cart</a>
+            <a href="" class="body-text-1">Wishlist</a>
+            <a href="" class="body-text-1">Shop</a>
+          </div>
+        </div>
+
+        <div class="h-[32px] md:w-[87px]"></div>
+
+        <!-- Quick Link -->
+        <div class="flex flex-col md:w-[109px]">
+          <span class="body-text-2 mb-[24px]">Quick Link</span>
+          <div class="flex flex-col gap-[16px]">
+            <a href="" class="body-text-1">Privacy Policy</a>
+            <a href="" class="body-text-1">Terms & Conditions</a>
+            <a href="" class="body-text-1">FAQ</a>
+            <a href="" class="body-text-1">Contact</a>
+          </div>
+        </div>
+
+        <div class="h-[32px] md:w-[87px]"></div>
+
+        <!-- Download -->
+        <div class="flex flex-col md:w-[198px]">
+          <span class="body-text-2 mb-[24px]">Download App</span>
+          <div class="flex flex-col">
+            <span class="body-text-3 text-[#FAFAFA]/70!"
+              >Save $3 with App New User Only</span
+            >
+            <div class="h-[8px]"></div>
+            <div class="flex flex-row gap-[12px] md:gap-[8px]">
+              <img
+                src="assets/img/qr-code.png"
+                class="size-[100px] md:size-[80px]"
+                alt="qr-code"
+              />
+              <div
+                class="flex cursor-pointer flex-col justify-between md:gap-[4px]"
+              >
+                <img
+                  src="assets/img/googleplay.png"
+                  class="h-[50px] w-auto md:h-[40px] md:w-[110px]"
+                  alt="googleplay"
+                />
+                <img
+                  src="assets/img/appstore.png"
+                  class="h-[50px] w-auto md:h-[40px] md:w-[110px]"
+                  alt="appstore"
+                />
+              </div>
+            </div>
+
+            <div class="h-[24px]"></div>
+
+            <div
+              class="social-icon flex flex-row gap-[24px] text-[24px] text-white"
+            >
+              <i class="fa-brands fa-facebook-f cursor-pointer"></i>
+              <i class="fa-brands fa-instagram cursor-pointer"></i>
+              <i class="fa-brands fa-twitter cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in cursor-pointer"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="h-[1px] w-full border-0 bg-white/40" />
+
+      <div
+        class="body-text-1 flex items-center justify-center pt-[16px] pb-[24px]"
+      >
+        <p>© 2025 Exclusive. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
